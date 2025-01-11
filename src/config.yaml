@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: der-gitarrenbausatz.de
+  site: 'https://www.der-gitarrenbausatz.de'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: der-gitarrenbausatz.de
+    template: '%s — der-gitarrenbausatz.de'
+  description: "\U0001F680 Der personalisierte Gitarrenbausatz"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: der-gitarrenbausatz.de
     images:
       - url: '~/assets/images/default.png'
         width: 1200
