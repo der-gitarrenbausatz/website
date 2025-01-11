@@ -1,6 +1,6 @@
 site:
   name: der-gitarrenbausatz.de
-  site: 'https://www.der-gitarrenbausatz.de'
+  site: 'https://der-gitarrenbausatz.de'
   base: '/'
   trailingSlash: false
 
