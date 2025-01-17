@@ -1,13 +1,9 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import Prices from '~/components/widgets/Pricing.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Hero2 from '../components/widgets/Hero2.astro';
-import Content from "../components/widgets/Content.astro";
+import Features2 from "../components/widgets/Features2.astro";
+import Newsletter from "../components/widgets/Newsletter.astro";
 
 const metadata = {
   title: 'Varianten',
@@ -24,7 +20,7 @@ const metadata = {
 
   <!-- Features3 Widget ************** -->
 
-  <Features3
+  <Features2
     title="Unser Konzept"
     subtitle="Warum du dich für unseren Bausatz entscheiden solltest"
     columns={2}
@@ -65,135 +61,7 @@ const metadata = {
         icon: 'tabler:heart-handshake',
       },
     ]}
-    classes={{ container: 'max-w-5xl' }}
   />
-
-  <!-- Steps Widget ****************** -->
-
-  <!--<Steps-->
-  <!--  title="Schritt für Schritt zu deiner selbstgebauten Gitarre"-->
-  <!--  tagline="Bausatz Bestellung"-->
-  <!--  isReversed={true}-->
-  <!--  items={[-->
-  <!--    {-->
-  <!--      title: 'Mach dich mit unseren Bausätzen vertraut',-->
-  <!--      icon: 'tabler:number-1',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Wähle den Fertigungsgrad, der zu dir passt',-->
-  <!--      icon: 'tabler:number-2',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Pass den Bausatz nach deinen Wünschen an',-->
-  <!--      icon: 'tabler:number-3',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Schick uns deine Bestellung',-->
-  <!--      icon: 'tabler:number-4',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Wir fertigen deinen Bausatz nach Wunsch',-->
-  <!--      icon: 'tabler:number-6',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Bau dir deine Traumgitarre',-->
-  <!--      icon: 'tabler:number-7',-->
-  <!--    },-->
-  <!--  ]}-->
-  <!--  image={{-->
-  <!--    src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',-->
-  <!--    alt: 'Steps image',-->
-  <!--  }}-->
-  <!--/>-->
-
-  <!-- Hero2 Widget ************** -->
-  <Content tagline="Coming soon..." title="Bausatz Varianten" content="🚧 Demnächst erfährst du an dieser Stelle mehr über unsere Bausatz-Angebote!" />
-
-  <!-- Pricing Widget ******************* -->
-
-  <!--<Prices-->
-  <!--  title="Unsere Varianten"-->
-  <!--  subtitle="Unterschiedliche Vorfertigung"-->
-  <!--  prices={[-->
-  <!--    {-->
-  <!--      title: 'raw',-->
-  <!--      subtitle: 'Für ambitionierte Gitarrenbauer',-->
-  <!--      price: 450,-->
-  <!--      period: 'all inclusive',-->
-  <!--      items: [-->
-  <!--        {-->
-  <!--          description: 'Holz für Boden, Zargen, Decke auf Stärke geschliffen',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Gehobelte Kanteln für den Hals',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Gesägtes Griffbrett',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Randeinlagen, Steg',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Holz für die Beleistung von Boden und Decke',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Bunddraht, Stegeinlage und Sattel',-->
-  <!--        },-->
-  <!--      ],-->
-  <!--      callToAction: {-->
-  <!--        target: '_blank',-->
-  <!--        text: 'Detaillierte Beschreibung',-->
-  <!--        href: '#',-->
-  <!--      },-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'standard',-->
-  <!--      subtitle: 'Für talentierte Heimwerker',-->
-  <!--      price: 650,-->
-  <!--      period: 'all inclusive',-->
-  <!--      items: [-->
-  <!--        {-->
-  <!--          description: 'Boden und Decke verleimt',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Gebogene Zargen und gebogene Randeinlagen',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Verleimter Hals',-->
-  <!--        }-->
-  <!--      ],-->
-  <!--      callToAction: {-->
-  <!--        target: '_blank',-->
-  <!--        text: 'Detaillierte Beschreibung',-->
-  <!--        href: '#',-->
-  <!--      },-->
-  <!--      hasRibbon: true,-->
-  <!--      ribbonTitle: 'Unser Tip',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'premium',-->
-  <!--      subtitle: 'Für Einsteiger',-->
-  <!--      price: 850,-->
-  <!--      period: 'all inclusive',-->
-  <!--      items: [-->
-  <!--        {-->
-  <!--          description: 'Gefräster Hals',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Gefräster Steg',-->
-  <!--        },-->
-  <!--        {-->
-  <!--          description: 'Einglegtes Schalloch',-->
-  <!--        },-->
-  <!--      ],-->
-  <!--      callToAction: {-->
-  <!--        target: '_blank',-->
-  <!--        text: 'Detaillierte Beschreibung',-->
-  <!--        href: '#',-->
-  <!--      },-->
-  <!--    },-->
-  <!--  ]}-->
-  <!--/>-->
 
   <!-- FAQs Widget ******************* -->
 
@@ -236,15 +104,9 @@ const metadata = {
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
-    title="Bereit, dir den Traum von der selbstgebauten Gitarre zu erfüllen?"
+  <Newsletter
+    id="newsletter"
+    title="Bereit, dir den Traum von deiner selbstgebauten Gitarre zu erfüllen?"
     subtitle="Abonnier unseren Newsletter und erfahre als erstes wenn unsere Bausätze verfügbar sind."
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Newsletter abonnieren',
-        href: '/',
-      },
-    ]}
   />
 </Layout>

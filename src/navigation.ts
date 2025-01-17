@@ -3,14 +3,19 @@ import { getPermalink, getBlogPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Übersicht',
+      text: 'Der Bausatz',
       href: getPermalink('/'),
     },
     {
       text: 'Blog',
       href: getBlogPermalink(),
     },
-  ]
+    {
+      text: 'Über uns',
+      href: getPermalink('/about'),
+    },
+  ],
+  actions: [{ text: 'Newsletter abonnieren', href: '#newsletter'}],
 };
 
 export const footerData = {
