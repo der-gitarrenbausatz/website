@@ -19,13 +19,12 @@ const {
   actions = await Astro.slots.render('actions'),
 
   id,
-  isDark = false,
   classes = {},
   bg = await Astro.slots.render('bg'),
 } = Astro.props;
 ---
 
-<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-6xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
+<WidgetWrapper id={id} containerClass={`max-w-6xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
   <div
     class="max-w-3xl mx-auto text-center p-6 rounded-md shadow-xl"
   >
