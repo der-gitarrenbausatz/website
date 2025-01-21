@@ -89,7 +89,8 @@ const {
     <!-- Begin Brevo Form -->
 
     <!-- START - We recommend to place the below code where you want the form in your website html  -->
-    <div class="sib-form" style="text-align: center">
+    <div class="sib-form" style="text-align: center;
+         background-color: #EFF2F7;                                 ">
       <div id="sib-form-container" class="sib-form-container">
         <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
           <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -113,18 +114,24 @@ const {
           </div>
         </div>
         <div></div>
-        <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; max-width:540px; direction:ltr">
+        <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid; direction:ltr">
           <form id="sib-form" method="POST" action="https://be734ac3.sibforms.com/serve/MUIFAMeMG37TWPPlGhoHTbK8aBTvsU5sFLf-zNjNtvPriItaJMFjuI8M37FszCiqPF2PFxb_QPuICmS7-9U-XniEtOwNRDl8XlaN7i1SEQnF16Pl2P-Iat6vQcadtLHIT0wj6ICHbJ5p9LpfUKgBiYGeWRenRDLw0ZDmJ4yjHhf15JN9IDtSPKzOe1iV2FSVfA8ObC5gUk76iSZE" data-type="subscription">
             <div style="padding: 8px 0;">
               <div class="sib-input sib-form-block">
                 <div class="form__entry entry_block">
                   <div class="form__label-row ">
-                    <input class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 bg-white " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Deine E-Mail Adresse" data-required="true" required />
+                    <label class="entry__label" style="font-weight: 700; text-align:left; font-size:16px; text-align:left; font-weight:700; font-family:Helvetica, sans-serif; color:#3c4858;" for="EMAIL" data-required="*">Gib deine E-Mail-Adresse ein, um dich anzumelden</label>
+
+                    <div class="entry__field">
+                      <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Deine E-Mail Adresse" data-required="true" required />
+                    </div>
                   </div>
 
                   <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
                   </label>
-
+                  <label class="entry__specification" style="font-size:12px; text-align:left; font-family:Helvetica, sans-serif; color:#8390A4; text-align:left">
+                    Gib bitte deine E-Mail-Adresse für die Anmeldung an, z. B. abc@xyz.com.
+                  </label>
                 </div>
               </div>
             </div>
@@ -137,10 +144,13 @@ const {
                         <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN" />
                         <span class="checkbox checkbox_tick_positive"
                               style="margin-left:"
-                        ></span><span style="font-size:14px; text-align:left; font-family:Helvetica, sans-serif; color:#3C4858; background-color:transparent;"><p>Ich möchte den Newsletter erhalten und akzeptiere die <a href="https://www.brevo.com/de/legal/privacypolicy/" target="_blank">Datenschutzrichtlinien</a>. Ich kann das Abonnement jederzeit über einen Link im Newsletter beenden.</p></span> </label>
+                        ></span><span style="font-size:14px; text-align:left; font-family:Helvetica, sans-serif; color:#3C4858; background-color:transparent;"><p>Ich möchte deinen Newsletter erhalten und akzeptiere die Datenschutzerklärung.</p></span> </label>
                     </div>
                   </div>
                   <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                  </label>
+                  <label class="entry__specification" style="font-size:12px; text-align:left; font-family:Helvetica, sans-serif; color:#8390A4; text-align:left">
+                    Du kannst den Newsletter jederzeit über den Link in unserem Newsletter abbestellen.
                   </label>
                 </div>
               </div>
@@ -169,11 +179,11 @@ const {
             </div>
             <div style="padding: 8px 0;">
               <div class="sib-form-block" style="text-align: left">
-                <button class="btn-primary sib-form-block__button-with-loader" form="sib-form" type="submit">
+                <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px; text-align:left; font-weight:700; font-family:Helvetica, sans-serif; color:#FFFFFF; background-color:#3E4857; border-radius:3px; border-width:0px;" form="sib-form" type="submit">
                   <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
                     <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
                   </svg>
-                  Newsletter abonnieren
+                  ANMELDEN
                 </button>
               </div>
             </div>
