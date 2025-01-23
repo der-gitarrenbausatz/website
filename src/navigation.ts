@@ -21,9 +21,9 @@ export const headerData = {
 export const footerData = {
   links: [],
   secondaryLinks: [
-    { text: 'Kontakt', href: getPermalink('/contact') },
+    // { text: 'Kontakt', href: getPermalink('/contact') },
     { text: 'Impressum', href: getPermalink('/terms') },
-    { text: 'Datenschutz', href: getPermalink('/privacy') },
+    // { text: 'Datenschutz', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/dergitarrenbausatz/' },
