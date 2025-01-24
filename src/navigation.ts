@@ -15,7 +15,7 @@ export const headerData = {
       href: getPermalink('/about'),
     },
   ],
-  actions: [{ text: 'Newsletter abonnieren', href: '/#newsletter'}],
+  // actions: [{ text: 'Newsletter abonnieren', href: '/#newsletter'}],
 };
 
 export const footerData = {
