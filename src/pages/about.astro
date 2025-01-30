@@ -2,6 +2,9 @@
 import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import Image from "../components/common/Image.astro";
+
+import gitarreFoto1 from '../assets/images/gitarre-14.jpg';
 
 const metadata = {
   title: 'Über uns',
@@ -14,8 +17,8 @@ const metadata = {
   <Hero
     tagline="Wer wir sind"
     image={{
-      src: '',
-      alt: 'Caos Image',
+      src: gitarreFoto1,
+      alt: 'Ränder wickeln bei einer klassischen Gitarre',
     }}
   >
     <Fragment slot="title">

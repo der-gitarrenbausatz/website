@@ -1,9 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Features2 from "../components/widgets/Features2.astro";
 import Newsletter from "../components/widgets/Newsletter.astro";
+import Hero from "../components/widgets/Hero.astro";
+
+import gitarreFoto1 from '../assets/images/gitarre-21.jpg';
 
 const metadata = {
   title: 'Varianten',
@@ -13,9 +15,14 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText
+  <Hero
     title="Deine Traumgitarre zum Selberbauen"
     subtitle="Der Gitarrenbausatz von Gitarrenbauern für Gitarrenbauer"
+    image={{
+      src: gitarreFoto1,
+      alt: 'Ränder wickeln bei einer klassischen Gitarre',
+    }}
+    }
   />
 
   <!-- Features3 Widget ************** -->
