@@ -1,17 +1,42 @@
 ---
-publishDate: 2025-01-10T00:00:00Z
+publishDate: 2025-01-30T00:00:00Z
 author: Michael Lihs
-title: Es geht los!
-excerpt: We are happy to announce that.
-image: https://images.unsplash.com/photo-1516996087931-5ae405802f9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
-category: Tutorials
+title: Erster Entwurf für unsere Bauformen
+excerpt: Derzeit arbeiten wir an den Bauformen, die euch helfen sollen, die Teile eurer Gitarre passgenau zusammenzubauen.
+image: "../../assets/images/bauform-2.png"
+category: Bauform
 tags:
-  - CNC Fräse
-  - der-gitarrenbausatz.de
+  - Tools & Jigs
 metadata:
-  canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+  canonical: https://der-gitarrenbausatz.de/2025-01-30-bauformen
 ---
 
-# Es geht los!
+Wer sich näher mit dem Thema Gitarrenbau auseindersetzt, wird feststellen, dass (Bau)Formen und Schablonen 
+ein wichtiger Schlüssel zum erfolgreichen Bau einer Gitarre sind. Vor allem beim Zusammenleimen von Zargen, Boden, Decke und Hals
+sind Formen (auch "Jigs" genannt) sehr wichtig, um einen rechtwinkligen und passgenauen Zusammenbau der einzelnen Teile zu gewährleisten.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Im Gegensatz zu vielen anderen Gitarrenbausätzen im Internet bekommst du bei unserem Bausatz alle notwendigen Formen für
+den Bau deiner Gitarre von uns geliehen. Im Moment arbeiten wir am Design dieser Bauformen und wollen mit euch erste 
+Skizzen aus dem CAD Programm teilen.
+
+Die Form wird aus mehreren Teilen bestehen:
+
+![Einzelteile der Bauform](../../assets/images/bauform-2.png)
+
+* einer Grundplatte
+* einer Austauschbaren Einlagen für unterschiedliche Korpusformen
+* Teilbaren Seitenteilen
+
+Für den Baus des Gitarrenkorpus wird die zusammengebaute Form dann etwa so aussehen:
+
+![Grundform mit Zargenkranz](../../assets/images/bauform-1.png)
+
+Darüberhinaus können die Seitenteile entfernt werden und mit 4 Distanzhülsen und Gewindestangen ein "Leimregal" (im Englischen auch "Go Bar" genannt)  
+gebaut werden, in der die Boden- und Deckenbalken aufgeleimt werden können:
+
+![Bauform als Leimregal](../../assets/images/bauform-3.png)
+
+Bis die ersten Prototypen für die Bauform verfügbar sind, wird es noch eine Weile dauern. Derzeit warten wir noch auf letzte 
+Teile für unsere CNC Fräse, mit der wir die Formen herstellen wollen. Darüber werden wir euch hier auf dem Laufenden halten. 
+Wir freuen uns aber jetzt schon über Feedback und eure Gedanken zu den Formen - falls ihr Anregungen und Ideen habt,
+immer her damit!
