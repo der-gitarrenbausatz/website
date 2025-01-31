@@ -1,8 +1,8 @@
 ---
 publishDate: 2025-01-30T00:00:00Z
 author: Michael Lihs
-title: Erster Entwurf für unsere Bauformen
-excerpt: Derzeit arbeiten wir an den Bauformen, die euch helfen sollen, die Teile eurer Gitarre passgenau zusammenzubauen.
+title: Erster Entwurf für die Bauformen
+excerpt: Derzeit arbeiten wir an den Bauformen, die euch dabei helfen, die Teile eurer Gitarre passgenau zusammenzubauen.
 image: "../../assets/images/bauform-2.png"
 category: Bauform
 tags:
