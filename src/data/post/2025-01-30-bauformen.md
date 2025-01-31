@@ -25,14 +25,22 @@ Die Form wird aus mehreren Teilen bestehen:
 
 * einer Grundplatte
 * einer Austauschbaren Einlagen für unterschiedliche Korpusformen
-* Teilbaren Seitenteilen
+* teilbaren Seitenteilen
 
 Für den Baus des Gitarrenkorpus wird die zusammengebaute Form dann etwa so aussehen:
 
 ![Grundform mit Zargenkranz](../../assets/images/bauform-1.png)
 
-Darüberhinaus können die Seitenteile entfernt werden und mit 4 Distanzhülsen und Gewindestangen ein "Leimregal" (im Englischen auch "Go Bar" genannt)  
-gebaut werden, in der die Boden- und Deckenbalken aufgeleimt werden können:
+Die Seitenteile werden mithilfe von Arretierunsstiften an der Grundform ausgerichtet um einen passgenauen Zusammenbau zu ermöglichen:
+
+![Arretierungsstifte für die Seitenteile der Bauform](../../assets/images/bauform-4.png)
+
+Grundform und Seitenteile werden mit Schrauben zusammengehalten:
+
+![Verschraubung von Grundform und Seitenteilen](../../assets/images/bauform-5.png)
+
+Darüberhinaus können die Seitenteile von der Grundplatte entfernt werden und mit 4 Distanzhülsen und Gewindestangen ein "Leimregal" 
+(im Englischen auch "Go Bar" genannt) gebaut werden, in dem die Boden- und Deckenbalken aufgeleimt werden können:
 
 ![Bauform als Leimregal](../../assets/images/bauform-3.png)
 
