@@ -7,6 +7,7 @@ import gitarreFoto1 from '../assets/images/gitarre-14.jpg';
 import fotoManolo from '../assets/images/manolo.jpg';
 import fotoAndreas from '../assets/images/andreas.jpg';
 import fotoFranziska from '../assets/images/franziska.jpg';
+import Image from "../components/common/Image.astro";
 
 const metadata = {
   title: 'Über uns',
@@ -37,7 +38,11 @@ const metadata = {
     isReversed
     image={{
       src: fotoFranziska,
-      alt: 'Colorful Image',
+      alt: 'Franziska Dill - Gitarrenbauerin',
+      width: 400,
+      height: 400,
+      widths: [400, 400],
+      sizes: "(max-width: 400px) 100vw, 432px"
     }}
   >
     <Fragment slot="content">
@@ -54,14 +59,18 @@ const metadata = {
     isReversed
     image={{
       src: fotoAndreas,
-      alt: 'Andreas Dill',
+      alt: 'Andreas Dill - Gitarrenbauer',
+      width: 400,
+      height: 400,
+      widths: [400, 400],
+      sizes: "(max-width: 400px) 100vw, 432px"
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Andreas Dill</h3>
       <span>Gitarrenbaumeister</span><br><br>
       Baut seit 1982 Gitarren und legte 1989 seine Prüfung zum Gitarrenbaumeister ab. Im gleichen Jahr eröffnete er in Weingarten den <a href="https://der-gitarrenladen.de">Gitarrenladen</a>.
-      Neben dem Bau und Verkauf von Gitarren ist er als Berater in der Gitarrenindustried tätig. Dabei liegt ihm besonders der nachhaltige
+      Neben dem Bau und Verkauf von Gitarren ist er als Berater in der Gitarrenindustrie tätig. Dabei liegt ihm besonders der nachhaltige
       Bau von Gitarren am Herzen.
     </Fragment>
 
@@ -71,7 +80,11 @@ const metadata = {
     isReversed
     image={{
       src: fotoManolo,
-      alt: 'Manolo Dill',
+      alt: 'Manolo Dill - Fotograf und Filmemacher',
+      width: 400,
+      height: 400,
+      widths: [400, 400],
+      sizes: "(max-width: 400px) 100vw, 432px"
     }}
   >
     <Fragment slot="content">
@@ -88,6 +101,10 @@ const metadata = {
     image={{
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Colorful Image',
+      width: 400,
+      height: 400,
+      widths: [400, 400],
+      sizes: "(max-width: 400px) 100vw, 432px"
     }}
   >
     <Fragment slot="content">
@@ -105,6 +122,10 @@ const metadata = {
     image={{
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Colorful Image',
+      width: 400,
+      height: 400,
+      widths: [400, 400],
+      sizes: "(max-width: 400px) 100vw, 432px"
     }}
   >
     <Fragment slot="content">
