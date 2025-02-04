@@ -5,7 +5,9 @@ import Features2 from "../components/widgets/Features2.astro";
 import Newsletter from "../components/widgets/Newsletter.astro";
 import Hero from "../components/widgets/Hero.astro";
 
-import gitarreFoto1 from '../assets/images/gitarre-21.jpg';
+import gitarreFoto2 from '../assets/images/guitar-00-mid-1.jpg';
+import gitarreFoto3 from '../assets/images/guitar-00-mid-3.jpg';
+import CenteredImage from "../components/widgets/CenteredImage.astro";
 
 const metadata = {
   title: 'Varianten',
@@ -13,23 +15,20 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
 
   <Hero
     title="Deine Traumgitarre zum Selberbauen"
-    subtitle="Der Gitarrenbausatz von Gitarrenbauern für Gitarrenbauer"
+    subtitle="Der Gitarrenbausatz von Gitarrenbauer_innen für Gitarrenbauer_innen"
     image={{
-      src: gitarreFoto1,
-      alt: 'Blick ins Innere einer Gitarre, bevor der Boden verleimt wird',
+      src: gitarreFoto3,
+      alt: 'Selbstgebaute Gitarre mit Fichtendecke und Koazargen',
     }}
     }
   />
 
-  <!-- Features3 Widget ************** -->
-
   <Features2
     title="Unser Konzept"
-    subtitle="Warum du dich für unseren Bausatz entscheiden solltest"
+    subtitle="Was macht unseren Bausatz so besonders"
     columns={2}
     items={[
       {
@@ -41,7 +40,7 @@ const metadata = {
       {
         title: 'Inklusive Bauform',
         description:
-          'Zu jedem Bausatz verleihen wir die dazu passenden Bauformen - du musst dir also keine teuren Formen kaufen oder selber bauen. Erst mit einer Bauform ist der präzise Zusammenbau einer Gitarre möglich.',
+          'Zu jedem Bausatz verleihen wir die dazu passenden Bauformen - du musst dir also keine teuren Formen kaufen oder selber bauen. Erst mit einer Bauform ist der präzise Zusammenbau einer Gitarre möglich. Wie diese Bauformen aussehen werden, findest du auf diesem <a href="2025-01-30-bauformen/">Blog Post</a>',
         icon: 'tabler:irregular-polyhedron',
       },
       {
@@ -70,13 +69,23 @@ const metadata = {
     ]}
   />
 
-  <!-- FAQs Widget ******************* -->
+  <CenteredImage
+    image={{
+      src: gitarreFoto2,
+      alt: "Selbstgebaute Gitarre"
+    }}
+  />
 
   <FAQs
-    title="Häufig gestellte Fragen zu unseren Bausätzen"
-    subtitle="Du hast noch Fragen zur Wahl des passenden Bausatzes, benötigtem Werkzeug oder Vorkenntnissen - dann lies dir unsere FAQs durch."
+    title="Häufige Fragen zu unseren Bausätzen"
+    subtitle="Du hast noch Fragen zu unseren Bausätzen, benötigtem Werkzeug oder Vorkenntnissen - dann lies dir unsere FAQs durch."
     columns={1}
     items={[
+      {
+        title: 'Ab wann werden die Bausätze verfügbar sein?',
+        description:
+          'Wir wollen die ersten Bausätze im Herbst 2025 anbieten - bis dahin brauchen wir noch etwas Zeit, um den perfekten Bausatz mit einer nachvollziehbaren Anleitung und den richtigen Bauformen für euch zusammenzustellen und zu testen.',
+      },
       {
         title: 'Sind alle benötigten Teile zum Bau der Gitarre vollständig im Bausatz enthalten?',
         description:
@@ -90,16 +99,16 @@ const metadata = {
       {
         title: 'Welche Vorkenntnisse sind notwendig?',
         description:
-          'Je nach Variante brauchst du unterschiedliche Vorkenntnisse zum Bau der Gitarre. Beim einfachsten Bausatz bekommst du von uns nur das passende Holz geliefert - du hast das gesamte Bauerlebnis vom rohen Holz zur fertigen Gitarre. Dafür brauchst du schon ein gewisses handwerkliches Geschick. Bei der Variante mit dem höchsten Vorfertigungsgrad bekommst sind viele Teile bereits fertig - du musst keine Zargen biegen und der Hals kommt quasi fertig gefräst und braucht nur noch eine Feinbearbeitung von dir.',
+          'Je nach Variante brauchst du unterschiedliche Vorkenntnisse zum Bau der Gitarre. Beim einfachsten Bausatz bekommst du von uns nur das passende Holz geliefert - du hast das gesamte Bauerlebnis vom rohen Holz zur fertigen Gitarre. Dafür brauchst du schon ein gewisses handwerkliches Geschick. Bei der Variante mit dem höchsten Vorfertigungsgrad bekommst sind viele Teile bereits fertig - du musst keine Zargen biegen und der Hals kommt quasi fertig gefräst und braucht nur noch einen Feinschliff von dir.',
       },
       {
         title: 'Welche Werkzeuge sind notwendig?',
         description: 'Wir stellen in Kürze eine detaillierte Werkzeugliste zur Verfügung - stay tuned!',
       },
       {
-        title: 'Bekomme ich Unterstützung falls ich nicht weiter weiss?',
+        title: 'Bekomme ich Unterstützung falls ich nicht weiter weiß?',
         description:
-          'Nach Absprache kannst du entweder unsere Werkstatt in Weingarten besuchen oder wir unterstützen dich per Videokonferenz aus der Ferne. Auf jeden Fall wirst du bei Problemen nicht alleine gelassen.',
+          'Nach Absprache kannst du entweder unsere Werkstatt in Weingarten besuchen oder wir unterstützen dich per Videokonferenz aus der Ferne. Auf keinen Fall wirst du bei uns mit deinen Problemen alleine gelassen.',
       },
       {
         title: 'Könnt ihr mir beim Lackieren der Gitarre helfen?',
@@ -108,8 +117,6 @@ const metadata = {
       },
     ]}
   />
-
-  <!-- CallToAction Widget *********** -->
 
   <Newsletter
     id="newsletter"
