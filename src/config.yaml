@@ -1,5 +1,5 @@
 site:
-  name: der-gitarrenbausatz.de
+  name: Der Gitarrenbausatz
   site: 'https://der-gitarrenbausatz.de'
   base: '/'
   trailingSlash: false
