@@ -39,6 +39,12 @@ Grundform und Seitenteile werden mit Schrauben zusammengehalten:
 
 ![Verschraubung von Grundform und Seitenteilen](../../assets/images/bauform-5.png)
 
+Die Seitenteile können über eine Verschraubung arretiert werden und in zwei Teile zerlegt werden:
+
+![Arretierung der Seitenteile](../../assets/images/bauform-6.png)
+
+![Seitenteile in zwei Hälften zerlegbar](../../assets/images/bauform-7.png)
+
 Darüberhinaus können die Seitenteile von der Grundplatte entfernt werden und mit 4 Distanzhülsen und Gewindestangen ein "Leimregal" 
 (im Englischen auch "Go Bar" genannt) gebaut werden, in dem die Boden- und Deckenbalken aufgeleimt werden können:
 
