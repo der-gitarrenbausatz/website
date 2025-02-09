@@ -3,11 +3,11 @@ import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
-import gitarreFoto1 from '../assets/images/gitarre-14.jpg';
 import fotoManolo from '../assets/images/manolo.jpg';
 import fotoAndreas from '../assets/images/andreas.jpg';
 import fotoFranziska from '../assets/images/franziska.jpg';
-import Image from "../components/common/Image.astro";
+import fotoMichael from '../assets/images/michael.jpg';
+
 
 const metadata = {
   title: 'Über uns',
@@ -44,7 +44,7 @@ const metadata = {
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Franziska Dill</h3>
       <span>Gitarrenbaumeisterin</span><br><br>
-      Musik wurde Franziska quasi in die Wiege gelegt. Seit 1995 baut sie vorwiegend klassische Gitarren und schloss 2004 ihre Meisterprüfung zur Gitarrenbauerin ab.
+      Musik wurde Franziska quasi in die Wiege gelegt. Seit 1995 baut sie sowohl klassische Gitarren als Stahlsaitengitarren und schloss 2004 ihre Meisterprüfung zur Gitarrenbauerin ab.
       2002 war dann der Startschuss für ihre eigene Gitarrenmarke. Weitere Infos und die aktuellen Modelle findet ihr unter
       <a class="inline-block hover:text-primary transition ease-in duration-200" href="http://franziska-koessl.de">franziska-koessl.de</a>.
     </Fragment>
@@ -95,7 +95,7 @@ const metadata = {
   <Content
     isReversed
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: fotoMichael,
       alt: 'Colorful Image',
       width: 400,
       height: 400,
