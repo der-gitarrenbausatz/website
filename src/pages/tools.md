@@ -14,6 +14,16 @@ layout: '../layouts/MarkdownLayout.astro'
 
 ## Übersicht der benötigten Werkzeuge nach Bauschritten
 
+* [Decke](#decke)
+* [Boden](#boden)
+* [Zargen](#zargen)
+* [Hals](#hals)
+* [Randeinlagen](#randeinlagen)
+* [Bünde & Griffbrett](#bünde--griffbrett)
+* [Steg & Sattel](#steg--sattel)
+* [Sonstige](#sonstiges)
+* [Maschinen](#maschinen)
+
 ### Decke
 
 | Werkzeug                         | Verwendung                         | Einfacher Bausatz | Erweiterter Bausatz |
@@ -35,6 +45,8 @@ layout: '../layouts/MarkdownLayout.astro'
 | Schleifklotz aus Kork            | Decke schleifen, Rosette verputzen | notwendig         | notwendig           |
 | Dickenmesser                     | Deckenstärke messen                | notwendig         | optional            |
 
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
+
 ### Boden
 
 | Werkzeug                         | Verwendung                          | Einfacher Bausatz | Erweiterter Bausatz |
@@ -53,6 +65,8 @@ layout: '../layouts/MarkdownLayout.astro'
 | Schleifpapier 100, 150, 200, 240 | Boden & Bodenbalken schleifen       | notwendig         | notwendig           |
 | Schleifklotz aus Kork            | Boden schleifen, Rosette verputzen  | notwendig         | notwendig           |
 | Dickenmesser                     | Bodenstärke messen                  | notwendig         | optional            |
+
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
 
 ### Zargen
 
@@ -73,6 +87,8 @@ layout: '../layouts/MarkdownLayout.astro'
 | Bodenform mit Wölbung            | Schleifen der Zargen / Reifchen       | verleihen wir     | verleihen wir       |
 | Zargenform                       | Verleimen von Zargen, Boden und Decke | verleihen wir     | verleihen wir       |
 
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
+
 ### Hals
 
 | Werkzeug                     | Verwendung                                                  | Einfacher Bausatz | Erweiterter Bausatz |
@@ -88,6 +104,8 @@ layout: '../layouts/MarkdownLayout.astro'
 | Stemmeisen ~20mm             | Halsfuß schnitzen                                           | notwendig         | nicht notwendig     |
 | Schnitzmesser                | Halsfuß und Hals-Kopfübergang schnitzen                     | notwendig         | nicht notwendig     |
 
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
+
 ### Randeinlagen
 
 | Werkzeug                         | Verwendung                 | Einfacher Bausatz | Erweiterter Bausatz |
@@ -100,6 +118,8 @@ layout: '../layouts/MarkdownLayout.astro'
 | Ziehklinge                       | Verputzen der Randeinlagen | notwendig         | notwendig           |
 | Schleifpapier 100, 150, 200, 240 | Randeinlagen schleifen     | notwendig         | notwendig           |
 | Schleifklotz aus Kork            | Randeinlagen schleifen     | notwendig         | notwendig           |
+
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
 
 ### Bünde & Griffbrett
 
@@ -116,6 +136,8 @@ layout: '../layouts/MarkdownLayout.astro'
 | Präzisionslineal mittel          | Bünde abrichten                | notwendig         | notwendig           |
 | Mini-Bohrmaschine (Dremel)       | Dots bohren                    | notwendig         | notwendig           |
 | Bohrer 2,5 mm                    | Zahnstocher, Griffbrett leimen | notwendig         | nicht notwendig     |
+
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
 
 ### Steg & Sattel
 
@@ -134,6 +156,8 @@ layout: '../layouts/MarkdownLayout.astro'
 | Flache Feile                     | Stegeinlage und Sattel feilen | notwendig         | notwendig           |
 | Sattelfeilen                     | Sattel feilen                 | notwendig         | notwendig           |
 
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
+
 ### Sonstiges
 
 | Werkzeug           | Verwendung                                  | Einfacher Bausatz | Erweiterter Bausatz |
@@ -141,16 +165,21 @@ layout: '../layouts/MarkdownLayout.astro'
 | Stahllineal 10 cm  | Messungen aller art                         | notwendig         | notwendig           |
 | Stahllineal 100 cm | Mensur / Saitenlänge ausmessen, Steg leimen | notwendig         | notwendig           |
 
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
+
 ### Maschinen
 
 Neben der erwähnten Oberfräse (ohne die beim Gitarrenbauen quasi gar nix geht) gibt es noch eine Liste weiterer Maschinen,
 die nicht zwingend notwendig sind, aber die Sache sehr vereinfachen - hier eine Übersicht:
 
-| Maschine             | Verwendung                                                                    | 
-|----------------------|-------------------------------------------------------------------------------|
-| Bandsäge             | Hilft bei fast allen Sägearbeiten, vor allem wenn Kurven gesägt werden müssen |
-| Tischkreissäge       | Hilft bei rechtwinkligen Schnitten und parallelen Schnitten                   |
-| Hobelmaschine        | Abrichten von Decke und Boden, Abrichten von Griffbrett, Abrichten von Hals   |
-| Exzenterschleifer    | Vereinfacht das Schleifen von Decke und Boden sowie beim Lackieren            |
-| Tellerschleifer      | Hilft beim rechtwinkligen Schleifen (z.B. Griffbrett, Kopf, Kopf- und Halsfuß |
-| Großer Bandschleifer | Hilft beim Planschleifen von großen Flächen (z.B. Griffbrett)                 |
+| Maschine             | Nutzen | Verwendung                                                                    | 
+|----------------------|-------|-------------------------------------------------------------------------------|
+| Oberfräse            | ⭐⭐⭐⭐⭐️ | Vor allem für das Fräsen der Randeinlagen unerlässlich                        |
+| Bandsäge             | ⭐⭐⭐⭐️ | Hilft bei fast allen Sägearbeiten, vor allem wenn Kurven gesägt werden müssen |
+| Tischkreissäge       | ⭐⭐⭐⭐  | Hilft bei rechtwinkligen Schnitten und parallelen Schnitten                   |
+| Hobelmaschine        | ⭐⭐⭐   | Abrichten von Decke und Boden, Abrichten von Griffbrett, Abrichten von Hals   |
+| Exzenterschleifer    | ⭐⭐⭐   | Vereinfacht das Schleifen von Decke und Boden sowie beim Lackieren            |
+| Tellerschleifer      | ⭐⭐    | Hilft beim rechtwinkligen Schleifen (z.B. Griffbrett, Kopf, Kopf- und Halsfuß |
+| Großer Bandschleifer | ⭐⭐    | Hilft beim Planschleifen von großen Flächen (z.B. Griffbrett)                 |
+
+[zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
