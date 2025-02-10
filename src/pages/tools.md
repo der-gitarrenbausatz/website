@@ -75,15 +75,18 @@ layout: '../layouts/MarkdownLayout.astro'
 
 ### Hals
 
-| Werkzeug                     | Verwendung                              | Einfacher Bausatz | Erweiterter Bausatz |
-|------------------------------|-----------------------------------------|-------------------|---------------------|
-| Oberfräse                    | Kopf fräsen                             | notwendig         | nicht notwendig     |
-| 8mm Nutfräser mit Anlaufring | Kopf fräsen                             | notwendig         | nicht notwendig     |
-| Breite Raspel (fein)         | Halsprofil raspeln                      | notwendig         | nur Feinbearbeitung |
-| Schleifklotz aus Kork        | Hals schleifen                          | notwendig         | notwendig           |
-| Japansäge, Querschnitt       | Halsklotz sägen                         | notwendig         | nicht notwendig     |
-| Stemmeisen ~20mm             | Halsfuß schnitzen                       | notwendig         | nicht notwendig     |
-| Schnitzmesser                | Halsfuß und Hals-Kopfübergang schnitzen | notwendig         | nicht notwendig     |
+| Werkzeug                     | Verwendung                                                  | Einfacher Bausatz | Erweiterter Bausatz |
+|------------------------------|-------------------------------------------------------------|-------------------|---------------------|
+| Oberfräse                    | Kopf fräsen                                                 | notwendig         | nicht notwendig     |
+| 8mm Nutfräser mit Anlaufring | Kopf fräsen                                                 | notwendig         | nicht notwendig     |
+| Breite Raspel (fein)         | Halsprofil raspeln                                          | notwendig         | nur Feinbearbeitung |
+| Schleifklotz aus Kork        | Hals schleifen                                              | notwendig         | notwendig           |
+| Japansäge groß               | Hals- / Kopfverbindung sägen                                | notwendig         | nicht notwendig     |
+| Stanley Hobel                | Hals- / Kopfverbindung abrichten                            | notwendig         | nicht notwendig     |
+| Kleiner Schreinerwinkel      | Rechtwinkligkeit und Ebenheit Hals- / Kopfverbindung prüfen | notwendig         | nicht notwendig     |
+| Japansäge, Querschnitt       | Halsklotz sägen                                             | notwendig         | nicht notwendig     |
+| Stemmeisen ~20mm             | Halsfuß schnitzen                                           | notwendig         | nicht notwendig     |
+| Schnitzmesser                | Halsfuß und Hals-Kopfübergang schnitzen                     | notwendig         | nicht notwendig     |
 
 ### Randeinlagen
 
@@ -137,3 +140,17 @@ layout: '../layouts/MarkdownLayout.astro'
 |--------------------|---------------------------------------------|-------------------|---------------------|
 | Stahllineal 10 cm  | Messungen aller art                         | notwendig         | notwendig           |
 | Stahllineal 100 cm | Mensur / Saitenlänge ausmessen, Steg leimen | notwendig         | notwendig           |
+
+### Maschinen
+
+Neben der erwähnten Oberfräse (ohne die beim Gitarrenbauen quasi gar nix geht) gibt es noch eine Liste weiterer Maschinen,
+die nicht zwingend notwendig sind, aber die Sache sehr vereinfachen - hier eine Übersicht:
+
+| Maschine             | Verwendung                                                                    | 
+|----------------------|-------------------------------------------------------------------------------|
+| Bandsäge             | Hilft bei fast allen Sägearbeiten, vor allem wenn Kurven gesägt werden müssen |
+| Tischkreissäge       | Hilft bei rechtwinkligen Schnitten und parallelen Schnitten                   |
+| Hobelmaschine        | Abrichten von Decke und Boden, Abrichten von Griffbrett, Abrichten von Hals   |
+| Exzenterschleifer    | Vereinfacht das Schleifen von Decke und Boden sowie beim Lackieren            |
+| Tellerschleifer      | Hilft beim rechtwinkligen Schleifen (z.B. Griffbrett, Kopf, Kopf- und Halsfuß |
+| Großer Bandschleifer | Hilft beim Planschleifen von großen Flächen (z.B. Griffbrett)                 |
