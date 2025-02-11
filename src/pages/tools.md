@@ -160,10 +160,13 @@ layout: '../layouts/MarkdownLayout.astro'
 
 ### Sonstiges
 
-| Werkzeug           | Verwendung                                  | Einfacher Bausatz | Erweiterter Bausatz |
-|--------------------|---------------------------------------------|-------------------|---------------------|
-| Stahllineal 10 cm  | Messungen aller art                         | notwendig         | notwendig           |
-| Stahllineal 100 cm | Mensur / Saitenlänge ausmessen, Steg leimen | notwendig         | notwendig           |
+| Werkzeug                 | Verwendung                                  | Einfacher Bausatz | Erweiterter Bausatz |
+|--------------------------|---------------------------------------------|-------------------|---------------------|
+| Stahllineal 10 cm        | Messungen aller art                         | notwendig         | notwendig           |
+| Stahllineal 100 cm       | Mensur / Saitenlänge ausmessen, Steg leimen | notwendig         | notwendig           |
+| Messschieber             | Alle möglichen Arten von Dickenmessung      | notwendig         | notwendig           |
+| Schärfsteine 1000 / 3000 | Schärfen von Hobel, Stemmeisen, Schnitzer   | notwendig         | notwendig           |
+| Schärfstein 6000         | Schärfen von Hobel, Stemmeisen, Schnitzer   | optional          | optional            |
 
 [zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
 
