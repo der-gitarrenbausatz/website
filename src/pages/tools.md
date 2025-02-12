@@ -175,14 +175,16 @@ layout: '../layouts/MarkdownLayout.astro'
 Neben der erwähnten Oberfräse (ohne die beim Gitarrenbauen quasi gar nix geht) gibt es noch eine Liste weiterer Maschinen,
 die nicht zwingend notwendig sind, aber die Sache sehr vereinfachen - hier eine Übersicht:
 
-| Maschine             | Nutzen | Verwendung                                                                    | 
-|----------------------|-------|-------------------------------------------------------------------------------|
-| Oberfräse            | ⭐⭐⭐⭐⭐️ | Vor allem für das Fräsen der Randeinlagen unerlässlich                        |
-| Bandsäge             | ⭐⭐⭐⭐️ | Hilft bei fast allen Sägearbeiten, vor allem wenn Kurven gesägt werden müssen |
-| Tischkreissäge       | ⭐⭐⭐⭐  | Hilft bei rechtwinkligen Schnitten und parallelen Schnitten                   |
-| Hobelmaschine        | ⭐⭐⭐   | Abrichten von Decke und Boden, Abrichten von Griffbrett, Abrichten von Hals   |
-| Exzenterschleifer    | ⭐⭐⭐   | Vereinfacht das Schleifen von Decke und Boden sowie beim Lackieren            |
-| Tellerschleifer      | ⭐⭐    | Hilft beim rechtwinkligen Schleifen (z.B. Griffbrett, Kopf, Kopf- und Halsfuß |
-| Großer Bandschleifer | ⭐⭐    | Hilft beim Planschleifen von großen Flächen (z.B. Griffbrett)                 |
+| Maschine                      | Nutzen | Verwendung                                                                    | 
+|-------------------------------|-------|-------------------------------------------------------------------------------|
+| Oberfräse                     | ⭐⭐⭐⭐⭐️ | Vor allem für das Fräsen der Randeinlagen unerlässlich                        |
+| Akku Schrauber / Bohrmaschine | ⭐⭐⭐⭐⭐ | Alle möglichen Bohrungen                                                      |
+| Bandsäge                      | ⭐⭐⭐⭐️ | Hilft bei fast allen Sägearbeiten, vor allem wenn Kurven gesägt werden müssen |
+| Tischkreissäge                | ⭐⭐⭐⭐  | Hilft bei rechtwinkligen Schnitten und parallelen Schnitten                   |
+| Ständerbohrmaschine           | ⭐⭐⭐⭐  | Hilft bei rechtwinkligen Bohrungen                                            |
+| Hobelmaschine                 | ⭐⭐⭐   | Abrichten von Decke und Boden, Abrichten von Griffbrett, Abrichten von Hals   |
+| Exzenterschleifer             | ⭐⭐⭐   | Vereinfacht das Schleifen von Decke und Boden sowie beim Lackieren            |
+| Tellerschleifer               | ⭐⭐    | Hilft beim rechtwinkligen Schleifen (z.B. Griffbrett, Kopf, Kopf- und Halsfuß |
+| Großer Bandschleifer          | ⭐⭐    | Hilft beim Planschleifen von großen Flächen (z.B. Griffbrett)                 |
 
 [zurück zur Übersicht](#übersicht-der-benötigten-werkzeuge-nach-bauschritten)
