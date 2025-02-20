@@ -1,0 +1,12 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import StringHeight from "../components/widgets/StringHeight.jsx";
+
+const metadata = {
+  title: 'Halswinkel-Rechner',
+};
+---
+
+<Layout metadata={metadata}>
+  <StringHeight  client:visible/>
+</Layout>
