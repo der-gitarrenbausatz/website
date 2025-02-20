@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 
 // Define fields with default values and descriptions
 const fields = {
-  fb0: { label: 'Dicke Griffbrett am Sattel', defaultValue: 5 },
-  fb12: { label: 'Dicke Griffbrett am 12. Bund', defaultValue: 5 },
-  f0: { label: 'Abstand Saite - Griffbrett am Sattel (Nullbund)', defaultValue: 1.4 },
-  f: { label: 'Höhe der restlichen Bünde', defaultValue: 1.1 },
-  a12: { label: 'Saitenabstand am 12. Bund (über Bund)', defaultValue: 5 },
-  bn: { label: 'Halswinkel (Abweichung am Steg)', defaultValue: '' },
-  d: { label: 'Deckenwölbung (Maximale Höhe der Decke über den Zargen)', defaultValue: 3 },
-  hs: { label: 'Saitenabstand über Decke am Steg', defaultValue: 9 },
+  fb0: { label: 'Dicke Griffbrett am Sattel', defaultValue: 5, unit: 'mm' },
+  fb12: { label: 'Dicke Griffbrett am 12. Bund', defaultValue: 5, unit: 'mm' },
+  f0: { label: 'Abstand Saite - Griffbrett am Sattel (Nullbund)', defaultValue: 1.4, unit: 'mm' },
+  f: { label: 'Höhe der restlichen Bünde', defaultValue: 1.1, unit: 'mm' },
+  a12: { label: 'Saitenabstand am 12. Bund (über Bund)', defaultValue: 5, unit: 'mm' },
+  bn: { label: 'Halswinkel (Abweichung am Steg)', defaultValue: '', unit: 'mm' },
+  d: { label: 'Deckenwölbung (Maximale Höhe der Decke über den Zargen)', defaultValue: 3, unit: 'mm' },
+  hs: { label: 'Saitenabstand über Decke am Steg', defaultValue: 9, unit: 'mm' },
 };
 
 const Widget = () => {
@@ -81,7 +81,7 @@ const Widget = () => {
     <div className="p-4 bg-gray-100 rounded-lg shadow max-w-lg mx-auto">
       <h2 className="text-lg font-bold mb-4">Halswinkel Rechner</h2>
       <div className="space-y-3">
-        {Object.entries(fields).map(([field, { label }]) => (
+        {Object.entries(fields).map(([field, { label, unit }]) => (
           <div key={field} className="flex items-center space-x-2">
             <div className="flex-grow">
               <label className="font-semibold">{field}</label>
@@ -92,8 +92,8 @@ const Widget = () => {
                   name={field}
                   value={values[field]}
                   onChange={handleChange}
-                  className="p-2 border rounded w-full"
-                />
+                  className="p-2 border rounded w-20"
+                /><pre>{unit}</pre>
                 <button
                   onClick={() => calculateField(field)}
                   className="p-2 bg-blue-500 text-white rounded text-sm"
