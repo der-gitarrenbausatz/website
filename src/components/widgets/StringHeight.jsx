@@ -67,7 +67,7 @@ const Widget = () => {
               onClick={() => calculateField(field)}
               className="p-2 bg-blue-500 text-white rounded"
             >
-              Calculate
+              Berechnen
             </button>
           </div>
         ))}

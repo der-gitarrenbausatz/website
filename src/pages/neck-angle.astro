@@ -2,11 +2,14 @@
 import Layout from '~/layouts/PageLayout.astro';
 import StringHeight from "../components/widgets/StringHeight.jsx";
 
+import neckangle from '~/assets/images/neck-angle.png';
+
 const metadata = {
   title: 'Halswinkel-Rechner',
 };
 ---
 
 <Layout metadata={metadata}>
+  <img src={neckangle.src} />
   <StringHeight  client:visible/>
 </Layout>
