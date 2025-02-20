@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import neckAngleImage from '~/assets/images/neck-angle-new.png';
 
 // Define fields with default values and descriptions
 const fields = {
@@ -79,51 +80,60 @@ const Widget = () => {
 
   return (
     <div className="p-4 bg-gray-100 rounded-lg shadow max-w-lg mx-auto">
-      <h2 className="text-lg font-bold mb-4">Halswinkel Rechner</h2>
-      <div className="space-y-3">
-        {Object.entries(fields).map(([field, { description, unit }]) => (
-          <div key={field} className="flex items-center space-x-2">
-            <div className="flex-grow">
-              <label className="font-semibold">{field}</label>
-              <span className="text-xs text-gray-600 block">{description}</span>
-              <div className="flex items-center space-x-2">
-                <input
-                  type="number"
-                  name={field}
-                  value={values[field]}
-                  onChange={handleChange}
-                  className="p-2 border rounded w-20"
-                /><pre>{unit}</pre>
-                <button
-                  onClick={() => calculateField(field)}
-                  className="p-2 bg-blue-500 text-white rounded text-sm"
-                >
-                  Berechnen
-                </button>
+      <h2 className="text-lg font-bold mb-4">Halswinkel-Rechner</h2>
+      <p class="font-light">Mit unserem Halswinkel-Rechner könnt ihr zu einer gewünschten Saitenlage für eure
+        Gitarre den dazu passenden Halswinkel berechnen. Wobei mit Winkel hier der "Abstand"
+        des Griffbretts zur Ebene der Decke am Sattel gemeint ist. Ein Halswinkel von 2 mm
+        bedeutet, dass der Hals auf einer ebenen Bauform am Sattel um 2 mm unterlegt werden muss
+        um die gewünschte Saitenlage zu bekommen.</p>
+        <div style={{ paddingTop: 30, paddingBottom: 30 }}>
+          <img class="space" src={neckAngleImage.src}/>
+        </div>
+        <div className="space-y-3">
+          {Object.entries(fields).map(([field, {description, unit}]) => (
+            <div key={field} className="flex items-center space-x-2">
+              <div className="flex-grow">
+                <label className="font-semibold">{field}</label>
+                <span className="text-xs text-gray-600 block">{description}</span>
+                <div className="flex items-center space-x-2">
+                  <input
+                    type="number"
+                    name={field}
+                    value={values[field]}
+                    onChange={handleChange}
+                    className="p-2 border rounded w-20"
+                  />
+                  <pre>{unit}</pre>
+                  <button
+                    onClick={() => calculateField(field)}
+                    className="p-2 bg-blue-500 text-white rounded text-sm"
+                  >
+                    Berechnen
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
 
-      {/* URL Display & Copy Button */}
-      <div className="mt-4 p-3 bg-white border rounded-lg flex items-center space-x-2">
-      <p className="font-semibold">Werte kopieren</p>
-        <input
-          type="text"
-          readOnly
-          value={window.location.href}
-          className="p-2 border rounded flex-grow"
-        />
-        <button
-          onClick={copyToClipboard}
-          className="p-2 bg-green-500 text-white rounded text-sm"
-        >
-          {copied ? "Kopiert!" : "Kopieren"}
-        </button>
+        {/* URL Display & Copy Button */}
+        <div className="mt-4 p-3 bg-white border rounded-lg flex items-center space-x-2">
+          <p className="font-semibold"></p>
+          <input
+            type="text"
+            readOnly
+            value={window.location.href}
+            className="p-2 border rounded flex-grow"
+          />
+          <button
+            onClick={copyToClipboard}
+            className="p-2 bg-green-500 text-white rounded text-sm"
+          >
+            {copied ? "Kopiert!" : "Kopieren"}
+          </button>
+        </div>
       </div>
-    </div>
-  );
-};
+      );
+      };
 
-export default Widget;
+      export default Widget;
