@@ -4,8 +4,8 @@ import React, { useState, useEffect } from "react";
 const fields = {
   fb0: { label: 'Dicke Griffbrett am Sattel', defaultValue: 5 },
   fb12: { label: 'Dicke Griffbrett am 12. Bund', defaultValue: 5 },
-  f0: { label: 'Abstand Saite - Griffbrett am Sattel (Nullbund)', defaultValue: 2.1 },
-  f: { label: 'Höhe der restlichen Bünde', defaultValue: 2 },
+  f0: { label: 'Abstand Saite - Griffbrett am Sattel (Nullbund)', defaultValue: 1.4 },
+  f: { label: 'Höhe der restlichen Bünde', defaultValue: 1.1 },
   a12: { label: 'Saitenabstand am 12. Bund (über Bund)', defaultValue: 5 },
   bn: { label: 'Halswinkel (Abweichung am Steg)', defaultValue: '' },
   d: { label: 'Deckenwölbung (Maximale Höhe der Decke über den Zargen)', defaultValue: 3 },
