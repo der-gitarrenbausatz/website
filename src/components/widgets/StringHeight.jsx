@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 // Define fields with default values and descriptions
 const fields = {
@@ -12,11 +12,29 @@ const fields = {
   hs: { label: 'Saitenabstand über Decke am Steg', defaultValue: 9 },
 };
 
-
 const Widget = () => {
-  const [values, setValues] = useState(
-    Object.fromEntries(Object.entries(fields).map(([key, { defaultValue }]) => [key, defaultValue]))
-  );
+  // Read values from URL or use defaults
+  const getInitialValues = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    return Object.fromEntries(
+      Object.entries(fields).map(([key, { defaultValue }]) => [
+        key,
+        urlParams.has(key) ? urlParams.get(key) : defaultValue,
+      ])
+    );
+  };
+
+  const [values, setValues] = useState(getInitialValues);
+  const [copied, setCopied] = useState(false);
+
+  // Function to update URL query params
+  const updateURL = () => {
+    const params = new URLSearchParams();
+    Object.entries(values).forEach(([key, value]) => {
+      if (value !== "") params.set(key, value);
+    });
+    window.history.replaceState({}, "", `?${params.toString()}`);
+  };
 
   // Function to calculate a specific field
   const calculateField = (targetField) => {
@@ -47,6 +65,18 @@ const Widget = () => {
     setValues((prev) => ({ ...prev, [name]: value }));
   };
 
+  // Copy URL to clipboard
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(window.location.href);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
+  };
+
+  // Update URL whenever values change
+  useEffect(() => {
+    updateURL();
+  }, [values]);
+
   return (
     <div className="p-4 bg-gray-100 rounded-lg shadow max-w-lg mx-auto">
       <h2 className="text-lg font-bold mb-4">Halswinkel Rechner</h2>
@@ -74,6 +104,23 @@ const Widget = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* URL Display & Copy Button */}
+      <div className="mt-4 p-3 bg-white border rounded-lg flex items-center space-x-2">
+      <p className="font-semibold">Werte kopieren</p>
+        <input
+          type="text"
+          readOnly
+          value={window.location.href}
+          className="p-2 border rounded flex-grow"
+        />
+        <button
+          onClick={copyToClipboard}
+          className="p-2 bg-green-500 text-white rounded text-sm"
+        >
+          {copied ? "Kopiert!" : "Kopieren"}
+        </button>
       </div>
     </div>
   );
