@@ -1,0 +1,12 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import FretboardCalculator from "../components/widgets/Fretboard.jsx";
+
+const metadata = {
+  title: 'Griffbrett-Rechner',
+};
+---
+
+<Layout metadata={metadata}>
+  <FretboardCalculator  client:only="react"/>
+</Layout>
