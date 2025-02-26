@@ -5,9 +5,9 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Grundidee
 
-Die Bauform besteht im Wesentlichen aus 4 Teilen
-
 ![bauform-klassik-1.png](../assets/images/bauform-klassik-1.png)
+
+Die Bauform besteht im Wesentlichen aus 4 Teilen:
 
 * Einer Grundplatte mit austauschbaren Deckenwölbungen
 * Zwei Zargenformen
