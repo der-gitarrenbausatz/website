@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-05-07T00:00:00Z
+publishDate: 2025-06-23T00:00:00Z
 author: Michael Lihs
 title: Bauanleitung für eine klassische Gitarre
 excerpt: Schritt-für-Schritt-Anleitung zum Bau einer klassischen Gitarre
@@ -122,10 +122,20 @@ metadata:
 | Hals schleifen         | Den gesamten Hals schleifen                                        | - Schleifpapier<br>- Schleifklotz<br>- Lineal     |
 ## Steg
 
+| Schritt                      | Beschreibung                                                           | Werkzeug                                                                         |
+| ---------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Stegrohling auf Dicke hobeln | Den Stegrohling auf die benötigte Dicke hobeln                         | - Hobel<br>- Kreissäge                                                           |
+| Stegrohling auf Länge sägen  | Den Stegrohling auf die benötigte Länge sägen                          | - Japansäge<br>- Winkellehre<br>- Kreissäge                                      |
+| Flügel sägen                 | Die Flügel links und rechts des Knüpfblocks sägen                      | - Japansäge<br>- Kreissäge                                                       |
+| Flügel ausarbeiten           | Die Flügel mit Rundung und Verjüngung ausarbeiten                      | - Raspel<br>- Schleifklotz<br>- Schleifpapier<br>- Stemmeisen<br>- Schnitzmesser |
+| Knüpfblock anfertigen        | Nut zwischen Stegeinlage und Knüpfblock fräsen                         | - Oberfräse                                                                      |
+| Löcher für Saiten bohren     | Die Löcher zum Knüpfen der Saiten bohren                               | - Akkuschrauber<br>- Bohrer                                                      |
+| Stegeinlage ausarbeiten      | Den Teil des Steges ausarbeiten, in dem die Stegeinlage eingelegt wird | - Hobel<br>- Schleifklotz<br>- Feile                                             |
+| Stegeinlage fräsen           | Schlitz für Stegeinlage fräsen (auf Intonation / Kompensation achten)  | - Oberfräse<br>- Frässchablone                                                   |
 
 ## Lackierung
 
 
-
-
-
+| Schritt   | Beschreibung | Werkzeug                                  |
+| --------- | ------------ | ----------------------------------------- |
+| Schleifen |              | - Schleifpapier mit verschiedener Körnung |
